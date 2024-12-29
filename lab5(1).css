@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.form-block {
+    display: block;
+    padding: 20px;
+}
+
+input,
+button {
+    margin: 5px auto;
+    display: block;
+}
+
+#output-box {
+    width: 250px;
+    height: 300px;
+}
+
+.wrong {
+    background-color: rgb(252, 103, 17);
+    color: rgb(29, 22, 22);
+}
